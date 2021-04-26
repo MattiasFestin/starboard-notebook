@@ -6,7 +6,7 @@
     font-family: "Inter var";
     font-weight: 200 900;
     font-display: swap;
-    src: local("Inter var"), url(../../static/fonts/inter.var.woff2?v=3.15) format("woff2")
+    src: local("Inter var"), url(../../static/fonts/Inter.var.woff2) format("woff2")
 }  
 
 $brand-color: #5e5ef8;
@@ -154,6 +154,7 @@ i {
 .cells-container {
     background-color: var(--background-color);
     padding-bottom: 0.75em;
+    padding-top: 0.75em;
 }
 
 .starboard-notebook-footer {
